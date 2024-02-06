@@ -2,7 +2,7 @@ import React from 'react'
 
 function Products() {
   return (
-    <div>
+    <div style={{margin:"0 0.5rem"}}>
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 bg-light" id='services'>
       <div className="col">
         <div className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style={{backgroundImage: "url('https://th.bing.com/th/id/OIP.bvsdGaky7xw3l_bQJ7vFuAHaFj?w=800&h=600&rs=1&pid=ImgDetMain')", backgroundSize:'cover'}}>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div style={{margin : "0 0.5rem"}}>
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5" id='about'>
       <div class="col-10 col-sm-8 col-lg-5">
         <img src="https://nexusinfo.in/assets/images/Bg-2.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"/>
@@ -11,7 +11,7 @@ function About() {
         <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
 We design success for your future.</h1>
         <p class="lead">Welcome to Nexus, where standards and quality converge to redefine excellence in the digital realm.</p>
-        <ul class="about-list" style={{fontSize:'30px', color:'rgb(120, 120, 120)'}}>
+        <ul class="about-list" style={{fontSize:'1.2rem', color:'rgb(120, 120, 120)'}}>
 
               <li>    
                 Setting standards and quality in web products
